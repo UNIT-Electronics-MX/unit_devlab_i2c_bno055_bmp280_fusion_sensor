@@ -34,9 +34,12 @@
    - **INT** → BNO055 interrupt output (e.g. data-ready)  
    - **BL-IND** →   
 
-5. **Mode Selection (BNO08x)**  
-   - **PS0**, **PS1** → Select BNO08x protocol (I²C / UART / SPI)  
-   - **BOOT** → STM32 BOOT0 pin (high = internal bootloader mode)  
+5. **Mode Selection (BNO08x)** 
+    
+   | **Protocol select**| **I2C** | **UART** | **HID - I2C** |
+   |--------------------|---------|----------|---------------|
+   |PS0                 |GND      |GND       |VDD            |
+   |PS1                 |GND      |VDD       |GND            |  
 
 6. **QWIIC Connector (JST-SH 4-pin)**  
    - Pin 1: GND  
@@ -54,7 +57,7 @@
 | **SCL**    | I²C Clock                | I²C clock line shared by BNO055, BMP280 & QWIIC connector.                                 |
 | **INT**    | Interrupt                | BNO055 interrupt output                                                                    |
 | **RST**    | Reset                    | External reset input for BNO055 (does not affect MCU).                                     |
-| **BL-IND** | Boot loader indicator    |                                                                                            |
+| **BL-IND** | Boot loader indicator    | --                                                                                         |
 | **BOOT**   | BOOT0                    | High on reset → STM32 internal bootloader for firmware update.                             |
 | **PS0**    | Protocol Select 0        | BNO08x protocol bit 0                                                                      |
 | **PS1**    | Protocol Select 1        | BNO08x protocol bit 1                                                                      |
