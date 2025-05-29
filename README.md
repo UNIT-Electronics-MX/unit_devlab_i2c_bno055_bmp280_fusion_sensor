@@ -18,16 +18,50 @@ Perfect for robotics, inertial navigation, drones, environmental monitoring and 
 ## Features
 
 - **BNO055**  
-  - On-chip sensor fusion (`quaternions`, `Euler angles`, `gravity vectors`, etc.)  
-  - **Accelerometer** ranges: ±2/4/8/16 g  
-  - **Gyroscope** ranges: ±125/250/500/1000/2000 °/s  
-  - **Magnetometer** ranges: ±1.3/1.9/2.5/4.0/4.7/5.6/8.1 gauss  
-  - **Interfaces**: `I²C`, `UART`, `SPI` (select via PS0/PS1)  
+  | **Feature**                  | **Description**                                        |
+  |------------------------------|--------------------------------------------------------|
+  | **On-chip sensor fusion**    | `quaternions`, `Euler angles`, `gravity vectors`, etc. | 
+  | **Accelerometer** ranges     | ±2/4/8/16 g                                            |  
+  | **Gyroscope** ranges         | ±125/250/500/1000/2000 °/s                             |
+  | **Magnetometer** ranges      | ±1.3/1.9/2.5/4.0/4.7/5.6/8.1 gauss                     | 
+  | **Protocol**                 | `I²C`, `UART` (select via PS0/PS1)                     | 
 
 - **BMP280**  
-  - Pressure range: 300…1100 hPa (±10…+1 m)  
-  - Temperature accuracy: ±1 °C  
-  - Interfaces: I²C (up to 3.4 MHz) or SPI (up to 10 MHz)  
+
+|Feature                   | Description                |
+|--------------------------|----------------------------|
+| **Pressure range**       | 300…1100 hPa (±10…+1 m)    |
+| **Temperature accuracy** | ±1 °C                      |
+| **Protocol**             | `I²C`, `UART`, `SWD`       |
   
 - **SWD programming/debugging** via SWCLK/SWDIO  
 - **JST-SH QWIIC connector** (GND, VCC, SDA, SCL)  
+
+## Documentation and Setup
+
+### Overview
+This repository contains firmware and documentation for integrating the BMM150 magnetometer into your project. The examples provided demonstrate sensor configuration, data acquisition, and interfacing via both I²C and SPI.
+
+### Installation
+1. Clone the repository:
+   ```
+   git clone git@github.com:UNIT-Electronics-MX/unit_bno055_bmp280.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd ./unit_bno055_bmp280
+   ```
+3. Follow the platform-specific setup instructions detailed in the project documentation.
+
+### Usage
+Include the sensor initialization and configuration routines in your main project file. Sample code snippets and detailed explanations can be found in the documentation folder of the repository.
+
+
+## Support
+For any issues or further assistance, please open an issue on the GitHub repository or contact our support team.
+
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Resources
