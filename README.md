@@ -62,7 +62,7 @@ Perfect for robotics, inertial navigation, drones, environmental monitoring and 
 ## Documentation and Setup
 
 ### Overview
-This repository contains firmware and documentation for integrating the BMM150 magnetometer into your project. The examples provided demonstrate sensor configuration, data acquisition, and interfacing via both I²C and SPI.
+This repository contains firmware and documentation for integrating the BNO055 - BMP280 Module into your project. The examples provided demonstrate sensor configuration, data acquisition, and interfacing.
 
 ### Installation
 1. Clone the repository:
