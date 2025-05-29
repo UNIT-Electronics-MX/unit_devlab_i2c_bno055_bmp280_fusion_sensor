@@ -28,11 +28,11 @@ Perfect for robotics, inertial navigation, drones, environmental monitoring and 
 
 - **BMP280**  
 
- |Feature                   | Description                |
- |--------------------------|----------------------------|
- | **Pressure range**       | 300…1100 hPa (±10…+1 m)    |
- | **Temperature accuracy** | ±1 °C                      |
- | **Protocol**             | `I²C`, `UART`, `SWD`       |
+  | **Feature**              | **Description**            |
+  |--------------------------|----------------------------|
+  | **Pressure range**       | 300…1100 hPa (±10…+1 m)    |
+  | **Temperature accuracy** | ±1 °C                      |
+  | **Protocol**             | `I²C`, `UART`, `SWD`       |
   
 - **SWD programming/debugging** via SWCLK/SWDIO  
 - **JST-SH QWIIC connector** (GND, VCC, SDA, SCL)  
@@ -51,12 +51,13 @@ Perfect for robotics, inertial navigation, drones, environmental monitoring and 
 | 🤖 Gesture interface                 | Uses motion to control devices.                                             |
 | 🌐 IoT environmental logging         | Collects and transmits environmental conditions.                            |
 
----
 
 ## ✅ Recommendations
 
 - 🔋 Recommended power: 3.3 V.
 - 🖥️ Use **Processing** or **Unity** for 3D visualization.
+
+---
 
 ## Documentation and Setup
 
