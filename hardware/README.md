@@ -10,7 +10,7 @@
 # Pinout
 
 <div align="center">
-    <a href="#"><img src="resources/UE0091-PINOUT-UNIT_BNO55-BMP280-001-[EN].png" width="500px"><br/>Pinout</a>
+    <a href="#"><img src="resources/UE0091-PINOUT-UNIT_BNO55-BMP280-001-EN.png" width="500px"><br/>Pinout</a>
     <br/>
 
 ## Description
