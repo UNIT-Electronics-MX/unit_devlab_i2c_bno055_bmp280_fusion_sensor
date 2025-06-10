@@ -83,7 +83,6 @@
 <div align="center">
     <a href="#"><img src="./resources/unit_topology_v_0_0_1_ue0091_BNO055_BMP280.png" width="500px"><br/>Dimensions</a>
     <br/>
-</div>
 
 | Ref.  | Description                                                                 |
 |-------|-----------------------------------------------------------------------------|
@@ -96,3 +95,4 @@
 | JP1   | 2.54 mm pin header                                                          |
 | JP2   | 2.54 mm pin header                                                          |
 | JP3   | 2.54 mm pin header                                                          |
+</div>
