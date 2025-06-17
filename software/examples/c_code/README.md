@@ -1,4 +1,4 @@
-# Arduino Project: BMP280 + BNO055 Sensor Fusion Code Explanation
+# BMP280 + BNO055 Code Explanation
 
 This document provides a line-by-line explanation of an Arduino IDE sketch that uses the **Adafruit BNO055** (9-DOF IMU) and the **BMP280** (temperature and pressure sensor). The program collects and prints sensor data in JSON format via serial communication.
 
