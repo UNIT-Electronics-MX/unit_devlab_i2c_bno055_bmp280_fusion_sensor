@@ -10,26 +10,30 @@
 # Pinout
 
 <div align="center">
-    <a href="#"><img src="resources/UE0091-PINOUT-UNIT_BNO55-BMP280-001-EN.png" width="500px"><br/>Pinout</a>
+    <a href="#"><img src="resources/unit_pinout_v_0_0_1_ue0091_bno055_bmp280_en.jpg" width="500px"><br/>Pinout</a>
     <br/>
+
+</div>
 
 ## Description
 
-| Pin        | Function                 | Description                                                                                |
-|------------|--------------------------|--------------------------------------------------------------------------------------------|
-| **VCC**    | Power                    | 3.3 V supply                                                                               |
-| **GND**    | Ground                   | Ground reference                                                                           |
-| **SDA**    | I²C Data                 | I²C data line shared by BNO055, BMP280 & QWIIC connector.                                  |
-| **SCL**    | I²C Clock                | I²C clock line shared by BNO055, BMP280 & QWIIC connector.                                 |
-| **INT**    | Interrupt                | BNO055 interrupt output                                                                    |
-| **RST**    | Reset                    | External reset input for BNO055 (does not affect MCU).                                     |
-| **BL-IND** | Boot loader indicator    | --                                                                                         |
-| **BOOT**   | BOOT0                    | High on reset → STM32 internal bootloader for firmware update.                             |
-| **PS0**    | Protocol Select 0        | Protocol bit 0                                                                             |
-| **PS1**    | Protocol Select 1        | Protocol bit 1                                                                             |
-| **SWCLK**  | SWD Clock                | Serial Wire Debug clock for STM32 programming/debugging.                                   |
-| **SWDIO**  | SWD Data                 | Serial Wire Debug data for STM32 programming/debugging.                                    |
-| **QWIIC**  | JST-SH I²C Connector     | QWIIC-compatible 4-pin I²C: GND, VCC, SDA, SCL (identical to the loose SDA/SCL pins).      |
+<div align="center">
+
+   | Pin        | Function                 | Description                                                                                |
+   |------------|--------------------------|--------------------------------------------------------------------------------------------|
+   | **VCC**    | Power                    | 3.3 V supply                                                                               |
+   | **GND**    | Ground                   | Ground reference                                                                           |
+   | **SDA**    | I²C Data                 | I²C data line shared by BNO055, BMP280 & QWIIC connector.                                  |
+   | **SCL**    | I²C Clock                | I²C clock line shared by BNO055, BMP280 & QWIIC connector.                                 |
+   | **INT**    | Interrupt                | BNO055 interrupt output                                                                    |
+   | **RST**    | Reset                    | External reset input for BNO055 (does not affect MCU).                                     |
+   | **BL-IND** | Boot loader indicator    | --                                                                                         |
+   | **BOOT**   | BOOT0                    | High on reset → STM32 internal bootloader for firmware update.                             |
+   | **PS0**    | Protocol Select 0        | Protocol bit 0                                                                             |
+   | **PS1**    | Protocol Select 1        | Protocol bit 1                                                                             |
+   | **SWCLK**  | SWD Clock                | Serial Wire Debug clock for STM32 programming/debugging.                                   |
+   | **SWDIO**  | SWD Data                 | Serial Wire Debug data for STM32 programming/debugging.                                    |
+   | **QWIIC**  | JST-SH I²C Connector     | QWIIC-compatible 4-pin I²C: GND, VCC, SDA, SCL (identical to the loose SDA/SCL pins).      |
 
 </div>
 
@@ -74,7 +78,7 @@
 # Dimensions
 
 <div align="center">
-    <a href="#"><img src="hardware/resources/img/unit_top_v_00x_sku_EU0091.png" width="500px"><br/>Dimensions</a>
+    <a href="#"><img src="resources/unit_dimension_v_0_0_1_ue0091_BNO055_BMP280.png" width="500px"><br/>Dimensions</a>
     <br/>
 
 
