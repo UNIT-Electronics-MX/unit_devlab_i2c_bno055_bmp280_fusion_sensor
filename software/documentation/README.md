@@ -20,18 +20,15 @@ Edita las secciones respetando el orden, sin eliminar los encabezados.
 
 ## Introduction
 
-The UNIT BNO055 + BMP280 Module integrates a 9-axis absolute orientation sensor and a precision barometric pressure and temperature sensor into a compact, ready-to-use form factor.
+The UNIT BNO055 + BMP280 Module is a compact, ready-to-use board that combines two powerful sensors: a 9-axis absolute orientation sensor and a high-precision barometric pressure and temperature sensor. The BNO055 integrates an accelerometer, gyroscope, and magnetometer with an onboard microcontroller that performs real-time sensor fusion, delivering orientation data such as quaternions, Euler angles, and gravity vectors directly—eliminating the need for complex processing on the host device.
 
-- BNO055: Combines accelerometer, gyroscope, and magnetometer with on-board sensor fusion delivering quaternions, Euler angles, and gravity vectors.
-- BMP280: High-resolution barometric pressure sensor with temperature measurement, ideal for altitude estimation and environmental monitoring.
-
-This combination is ideal for robotics, drones, VR/AR, and IoT systems requiring orientation and environmental awareness.
+Complementing this, the BMP280 provides accurate atmospheric pressure and temperature readings, making it well-suited for altitude estimation and environmental monitoring. Together, these sensors enable comprehensive motion and environmental awareness, making the module an excellent choice for robotics, drones, VR/AR systems, and IoT applications where both orientation tracking and environmental data are essential.
 
 ## Functional Description
 
 The module provides full 9-DOF sensing with absolute orientation through the BNO055, which includes sensor fusion in hardware, eliminating the need for complex calculations on the host MCU. It supports I²C or UART interfaces for flexible integration.
 
-The BMP280 complements the system by offering accurate barometric pressure and temperature measurements, useful for altimetry and environmental logging. Communication is possible through I²C, UART, or SWD.
+The BMP280 complements the system by offering accurate barometric pressure and temperature measurements, useful for altimetry and environmental logging. Communication is possible through I²C, UART
 
 The board includes clearly labeled pins and a QWIIC-compatible JST-SH connector for rapid prototyping.
 
@@ -41,13 +38,9 @@ The board includes clearly labeled pins and a QWIIC-compatible JST-SH connector 
 - Logic compatibility: 3.3 V
 - BNO055 interfaces: I2C, UART (selectable via PS0/PS1)
 - BMP280 interfaces: I2C, UART, SWD
-- BNO055 sensor ranges:
-    - Accelerometer: +/-2g, +/-4g, +/-8g, +/-16g
-    - Gyroscope: +/-125 deg/s to +/-2000 deg/s
-    - Magnetometer: +/-1.3 to +/-8.1 gauss
+- The BNO055 sensor is highly configurable, offering an accelerometer that operates at ±2g, ±4g, ±8g, or ±16g, a gyroscope that measures angular velocities from ±125°/s up to ±2000°/s, and a magnetometer with ranges adjustable from ±1.3 gauss to ±8.1 gauss.
 - BMP280 pressure range: 300 to 1100 hPa
 - BMP280 temperature accuracy: +/-1 degC
-- SWD programming interface via SWCLK/SWDIO
 
 ## Applications
 
@@ -80,8 +73,6 @@ The board includes clearly labeled pins and a QWIIC-compatible JST-SH connector 
 | SCL     | I2C clock / UART RX (configurable)  |
 | PS0     | Protocol select bit 0               |
 | PS1     | Protocol select bit 1               |
-| SWDIO   | SWD data (BMP280)                   |
-| SWCLK   | SWD clock (BMP280)                  |
 | INT     | BNO055 interrupt output             |
 
 ## Settings
@@ -92,7 +83,6 @@ The board includes clearly labeled pins and a QWIIC-compatible JST-SH connector 
 |------------|-----------------------|------------------------------------------|
 | I2C        | SDA, SCL              | Communication with microcontroller       |
 | UART       | TX, RX (via SDA, SCL) | Alternative communication protocol       |
-| SWD        | SWDIO, SWCLK          | Programming/debugging BMP280             |
 | GPIO       | PS0, PS1              | Protocol selection for BNO055            |
 | Interrupt  | INT                   | Orientation or motion event signaling    |
 
@@ -104,8 +94,8 @@ The board includes clearly labeled pins and a QWIIC-compatible JST-SH connector 
 | SCL     | I/O | I2C clock / UART RX (shared)           |
 | PS0     | I   | BNO055 protocol select (bit 0)         |
 | PS1     | I   | BNO055 protocol select (bit 1)         |
-| SWDIO   | I/O | BMP280 SWD data                        |
-| SWCLK   | I   | BMP280 SWD clock                       |
+| SWDIO   | I/O | SWD data                        |
+| SWCLK   | I   | SWD clock                       |
 | INT     | O   | Motion/interrupt signal (BNO055)       |
 
 ## Block Diagram

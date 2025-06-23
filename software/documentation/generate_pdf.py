@@ -91,7 +91,7 @@ def format_images_with_titles(content):
             f"\\section*{{{title}}}\n"
             "\\vspace{1em}\n"
             "\\begin{center}\n"
-            f"\\includegraphics[width=0.75\\textwidth,keepaspectratio]{{{path}}}\n"
+            f"\\includegraphics[width=0.60\\textwidth,keepaspectratio]{{{path}}}\n"
             "\\end{center}\n"
         )
     return code
