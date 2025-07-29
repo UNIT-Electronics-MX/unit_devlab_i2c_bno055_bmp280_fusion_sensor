@@ -11,8 +11,6 @@ Perfect for robotics, inertial navigation, drones, environmental monitoring and 
 <div align="center">
     <a href="#"><img src="hardware/resources/img/unit_top_v_00x_sku_EU0091.png" width="500px"><br/>BNO055 + BMO280 Module</a>
     <br/>
-
-
 </div>
 
 
@@ -22,7 +20,7 @@ Perfect for robotics, inertial navigation, drones, environmental monitoring and 
 
 | Resource | Link |
 |:--------:|:----:|
-| Wiki-UNIT Electronics | [Wiki - UNIT Electronics](hhttps://unit-electronics-mx.github.io/wiki_uelectronics/es/docs/Sensors/bno055_bmp280/) |
+| Wiki-UNIT Electronics | [Wiki - UNIT Electronics](https://unit-electronics-mx.github.io/wiki_uelectronics/es/docs/Sensors/bno055_bmp280/) |
 | Github Repository | [Github Repository](https://github.com/UNIT-Electronics-MX/unit_bno055_bmp280_module) |
 | Product Brief | [Product brief](https://github.com/UNIT-Electronics-MX/unit_bno055_bmp280_module/blob/main/docs/unit_bno055_bmp280_module_product_brief.pdf) |
 
@@ -31,26 +29,34 @@ Perfect for robotics, inertial navigation, drones, environmental monitoring and 
 
 ## Features
 
-- **BNO055**  
-  | **Feature**                  | **Description**                                        |
-  |------------------------------|--------------------------------------------------------|
-  | **On-chip sensor fusion**    | `quaternions`, `Euler angles`, `gravity vectors`, etc. | 
-  | **Accelerometer** ranges     | ±2/4/8/16 g                                            |  
-  | **Gyroscope** ranges         | ±125/250/500/1000/2000 °/s                             |
-  | **Magnetometer** ranges      | ±1.3/1.9/2.5/4.0/4.7/5.6/8.1 gauss                     | 
-  | **Protocol**                 | `I²C`, `UART` (select via PS0/PS1)                     | 
+<div align="center">
+
+| **Feature**                  | **Description**                                        |
+|------------------------------|--------------------------------------------------------|
+| **On-chip sensor fusion**    | `quaternions`, `Euler angles`, `gravity vectors`, etc. | 
+| **Accelerometer** ranges     | ±2/4/8/16 g                                            |  
+| **Gyroscope** ranges         | ±125/250/500/1000/2000 °/s                             |
+| **Magnetometer** ranges      | ±1.3/1.9/2.5/4.0/4.7/5.6/8.1 gauss                     | 
+| **Protocol**                 | `I²C`, `UART` (select via PS0/PS1)                     | 
+
+</div>
 
 - **BMP280**  
 
-  | **Feature**              | **Description**            |
-  |--------------------------|----------------------------|
-  | **Pressure range**       | 300…1100 hPa (±10…+1 m)    |
-  | **Temperature accuracy** | ±1 °C                      |
-  | **Protocol**             | `I²C`, `UART`, `SWD`       |
-  
+<div align="center">
+
+| **Feature**              | **Description**            |
+|--------------------------|----------------------------|
+| **Pressure range**       | 300…1100 hPa (±10…+1 m)    |
+| **Temperature accuracy** | ±1 °C                      |
+| **Protocol**             | `I²C`, `UART`, `SWD`       |
+
+</div>
 - **SWD programming/debugging** via SWCLK/SWDIO  
 - **JST-SH QWIIC connector** (GND, VCC, SDA, SCL)  
 
+
+<div align="center">
 
 ## Module Applications
 
@@ -64,6 +70,8 @@ Perfect for robotics, inertial navigation, drones, environmental monitoring and 
 | 🚁 Flight controller                 | Stabilization for drones or robots.                                         |
 | 🤖 Gesture interface                 | Uses motion to control devices.                                             |
 | 🌐 IoT environmental logging         | Collects and transmits environmental conditions.                            |
+
+</div>
 
 
 ## ✅ Recommendations
