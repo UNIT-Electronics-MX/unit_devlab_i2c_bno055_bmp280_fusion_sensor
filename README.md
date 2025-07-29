@@ -29,9 +29,11 @@ Perfect for robotics, inertial navigation, drones, environmental monitoring and 
 
 ## Features
 
-<div align="center">
 
 - **BNO055**  
+<div align="center">
+
+
 
 
 | **Feature**                  | **Description**                                        |
