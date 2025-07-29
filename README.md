@@ -1,4 +1,4 @@
-# BNO055 BMP28 Module
+# BNO055 BMP280 Module
 
 ## Introduction
 This module combines two sensors on a single board:
@@ -14,6 +14,20 @@ Perfect for robotics, inertial navigation, drones, environmental monitoring and 
 
 
 </div>
+
+
+## Additional Resources
+
+<div align="center">
+
+| Resource | Link |
+|:--------:|:----:|
+| Wiki-UNIT Electronics | [Wiki - UNIT Electronics](hhttps://unit-electronics-mx.github.io/wiki_uelectronics/es/docs/Sensors/bno055_bmp280/) |
+| Github Repository | [Github Repository](https://github.com/UNIT-Electronics-MX/unit_bno055_bmp280_module) |
+| Product Brief | [Product brief](https://github.com/UNIT-Electronics-MX/unit_bno055_bmp280_module/blob/main/docs/unit_bno055_bmp280_module_product_brief.pdf) |
+
+</div>
+
 
 ## Features
 
@@ -58,29 +72,6 @@ Perfect for robotics, inertial navigation, drones, environmental monitoring and 
 - 🖥️ Use **Processing** or **Unity** for 3D visualization.
 
 ---
-
-## Documentation and Setup
-
-### Overview
-This repository contains firmware and documentation for integrating the BNO055 - BMP280 Module into your project. The examples provided demonstrate sensor configuration, data acquisition, and interfacing.
-
-### Installation
-1. Clone the repository:
-   ```
-   git clone git@github.com:UNIT-Electronics-MX/unit_bno055_bmp280.git
-   ```
-2. Navigate to the project directory:
-   ```
-   cd ./unit_bno055_bmp280
-   ```
-3. Follow the platform-specific setup instructions detailed in the project documentation.
-
-### Usage
-Include the sensor initialization and configuration routines in your main project file. Sample code snippets and detailed explanations can be found in the documentation folder of the repository.
-
-
-## Support
-For any issues or further assistance, please open an issue on the GitHub repository or contact our support team.
 
 
 ## License
