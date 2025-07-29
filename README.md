@@ -31,6 +31,9 @@ Perfect for robotics, inertial navigation, drones, environmental monitoring and 
 
 <div align="center">
 
+- **BNO055**  
+
+
 | **Feature**                  | **Description**                                        |
 |------------------------------|--------------------------------------------------------|
 | **On-chip sensor fusion**    | `quaternions`, `Euler angles`, `gravity vectors`, etc. | 
@@ -52,13 +55,16 @@ Perfect for robotics, inertial navigation, drones, environmental monitoring and 
 | **Protocol**             | `I²C`, `UART`, `SWD`       |
 
 </div>
+
 - **SWD programming/debugging** via SWCLK/SWDIO  
 - **JST-SH QWIIC connector** (GND, VCC, SDA, SCL)  
 
 
-<div align="center">
 
 ## Module Applications
+
+
+<div align="center">
 
 | Application                          | Description                                                                 |
 |--------------------------------------|-----------------------------------------------------------------------------|
@@ -79,7 +85,6 @@ Perfect for robotics, inertial navigation, drones, environmental monitoring and 
 - 🔋 Recommended power: 3.3 V.
 - 🖥️ Use **Processing** or **Unity** for 3D visualization.
 
----
 
 
 ## License
