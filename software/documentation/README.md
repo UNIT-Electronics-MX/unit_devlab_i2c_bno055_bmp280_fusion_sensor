@@ -114,12 +114,12 @@ Works with:
 - ESP32, ESP8266
 - Raspberry Pi (via I2C)
 - STM32 and ARM Cortex-M
-- CH552 and other UART/I2C-compatible MCUs
 - Unity or Processing (3D visualization)
 
 ## Downloads
 
-- [Schematic PDF](../hardware/unit_sch_V_0_0_1_EU0091_bno055_bmp280.pdf)
+- [Schematic PDF](https://github.com/UNIT-Electronics-MX/unit_bno055_bmp280_module/tree/main/hardware#schematic)
+- [PinOut](https://github.com/UNIT-Electronics-MX/unit_bno055_bmp280_module/tree/main/hardware#pinout)
 
 ## Purchase
 
