@@ -1,7 +1,7 @@
 # Schematic
 
 <div align="center">
-    <a href="#"><img src="resources/img/Schematics_icon.jpg" width="400px"><br/>Schematic</a>
+    <a href="./unit_sch_v_0_0_1_ue0091_BNO055_BMP280.pdf"><img src="resources/Schematics_icon.jpg" width="400px"><br/>Schematic</a>
     <br/>
 
 
@@ -10,7 +10,7 @@
 # Pinout
 
 <div align="center">
-    <a href="#"><img src="./resources/unit_pinout_v_0_0_1_ue0091_bno055_bmp280_en.png" width="500px"><br/>Pinout</a>
+    <a href="./unit_pinout_v_0_0_1_ue0091_bno055_bmp280_en.pdf"><img src="./resources/unit_pinout_v_0_0_1_ue0091_bno055_bmp280_en.jpg" width="500px"><br/>Pinout</a>
     <br/>
 
 </div>
