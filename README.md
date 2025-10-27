@@ -1,4 +1,4 @@
-# BNO055 BMP280 Module
+# DevLab: I2C BNO055 + BMP280 Fusion Sensor
 
 ## Introduction
 This module combines two sensors on a single board:
