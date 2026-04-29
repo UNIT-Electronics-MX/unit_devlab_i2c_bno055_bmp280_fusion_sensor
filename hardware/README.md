@@ -49,9 +49,6 @@
    - **SDA** → I²C data line  
    - **SCL** → I²C clock line  
 
-3. **STM32 SWD (program/debug)**  
-   - **SWCLK** → SWD clock  
-   - **SWDIO** → SWD data  
 
 4. **Control & Status**  
    - **RST** → External reset for the BNO055 sensor  
