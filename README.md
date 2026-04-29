@@ -1,7 +1,8 @@
 # DevLab: I2C BNO055 + BMP280 Fusion Sensor
 
-## Introduction
-This module combines two sensors on a single board:
+
+
+This module combines two high-performance sensors on a single board:
 
 - **BNO055**: 9-DOF absolute orientation sensor (accelerometer, gyroscope, magnetometer) with on-board sensor fusion.  
 - **BMP280**: high-precision barometric pressure and temperature sensor.
@@ -16,17 +17,19 @@ Perfect for robotics, inertial navigation, drones, environmental monitoring and 
 
 ## Additional Resources
 
+
 <div align="center">
 
-| Resource | Link |
-|:--------:|:----:|
-| Wiki-UNIT Electronics | [Wiki - UNIT Electronics](https://unit-electronics-mx.github.io/wiki_uelectronics/es/docs/Sensors/bno055_bmp280/) |
-| Github Repository | [Github Repository](https://github.com/UNIT-Electronics-MX/unit_bno055_bmp280_module) |
-| Product Brief | [Product brief](https://github.com/UNIT-Electronics-MX/unit_bno055_bmp280_module/blob/main/docs/unit_bno055_bmp280_module_product_brief.pdf) |
+### Quick Setup
+
+[<img src="https://img.shields.io/badge/Product%20Wiki-blue?style=for-the-badge" alt="Product Wiki">](https://wiki.uelectronics.com/wiki/devlab-dvi-to-fpc-adapter)
+[<img src="https://img.shields.io/badge/Datasheet-green?style=for-the-badge" alt="Datasheet">](#)
+[<img src="https://img.shields.io/badge/Buy%20Now-orange?style=for-the-badge" alt="Buy Now">](#)
+[<img src="https://img.shields.io/badge/Getting%20Started-purple?style=for-the-badge" alt="Getting Started">](#)
 
 </div>
 
-
+<div align="center" >
 ## Features
 
 
@@ -67,29 +70,26 @@ Perfect for robotics, inertial navigation, drones, environmental monitoring and 
 
 
 <div align="center">
-
 | Application                          | Description                                                                 |
 |--------------------------------------|-----------------------------------------------------------------------------|
-| 📈 Portable weather station          | Measures temperature, humidity, and pressure accurately.                    |
-| 🪂 Altimeter / variometer            | Calculates altitude based on atmospheric pressure.                          |
-| 🧍 Posture tracking                  | Detects body tilt or rotation.                                              |
-| 🛰️ Inertial navigation               | Tracks movement and orientation without GPS.                                |
-| 🕹️ Augmented / virtual reality       | Provides orientation for 3D environments.                                   |
-| 🚁 Flight controller                 | Stabilization for drones or robots.                                         |
-| 🤖 Gesture interface                 | Uses motion to control devices.                                             |
-| 🌐 IoT environmental logging         | Collects and transmits environmental conditions.                            |
+| Portable weather station          | Measures temperature, humidity, and pressure accurately.                    |
+| Altimeter / variometer            | Calculates altitude based on atmospheric pressure.                          |
+| Posture tracking                  | Detects body tilt or rotation.                                              |
+| Inertial navigation               | Tracks movement and orientation without GPS.                                |
+| Augmented / virtual reality       | Provides orientation for 3D environments.                                   |
+| Flight controller                 | Stabilization for drones or robots.                                         |
+| Gesture interface                 | Uses motion to control devices.                                             |
+| IoT environmental logging         | Collects and transmits environmental conditions.                            |
 
 </div>
 
 
-## ✅ Recommendations
+##  Recommendations
 
-- 🔋 Recommended power: 3.3 V.
-- 🖥️ Use **Processing** or **Unity** for 3D visualization.
+- Recommended power: 3.3 V.
+- Use **Processing** or **Unity** for 3D visualization.
 
 
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Resources
