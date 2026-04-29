@@ -29,7 +29,6 @@ Perfect for robotics, inertial navigation, drones, environmental monitoring and 
 
 </div>
 
-<div align="center" >
 ## Features
 
 
@@ -70,6 +69,7 @@ Perfect for robotics, inertial navigation, drones, environmental monitoring and 
 
 
 <div align="center">
+
 | Application                          | Description                                                                 |
 |--------------------------------------|-----------------------------------------------------------------------------|
 | Portable weather station          | Measures temperature, humidity, and pressure accurately.                    |
