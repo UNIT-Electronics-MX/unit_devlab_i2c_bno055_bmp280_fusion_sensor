@@ -1,7 +1,7 @@
 # Schematic
 
 <div align="center">
-    <a href="./unit_sch_v_0_0_1_ue0091_BNO055_BMP280.pdf"><img src="resources/Schematics_icon.jpg" width="400px"><br/>Schematic</a>
+    <a href="./unit_sch_v_1_0_0_ue0091_BNO055_BMP280.pdf"><img src="resources/Schematics_icon.jpg" width="400px"><br/>Schematic</a>
     <br/>
 
 
