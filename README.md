@@ -10,7 +10,7 @@ This module combines two high-performance sensors on a single board:
 Perfect for robotics, inertial navigation, drones, environmental monitoring and IoT projects.
 
 <div align="center">
-    <a href="#"><img src="hardware/resources/img/unit_top_v_00x_sku_EU0091.png" width="500px"><br/>BNO055 + BMO280 Module</a>
+    <a href="#"><img src="hardware/resources/unit_top_v_1_1_0_ue0091_BNO055_BMP280.png" width="500px"><br/>BNO055 + BMO280 Module</a>
     <br/>
 </div>
 
